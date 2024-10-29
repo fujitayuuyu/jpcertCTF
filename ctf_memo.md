@@ -66,8 +66,9 @@ Securityログで通信等アクセスを確認ご、sysmonによるコマンド
 ![first_access_win1](/winダウンロード通信1.png)
 
 ![first_access_wi](/win_ダウンロード１.png)
-* win.exeによる198.51.100.101(不審アドレス)からの`notilv.exe`のダウンロードだと考えられる
-
+* win.exeによる198.51.100.101`notilv.exe`も実行されていた？
+![image](https://github.com/user-attachments/assets/0c35c5a6-b27e-4d77-94ff-3583cc1a8f02)
+* notilv.exeは、2019/11/07 15:15:03から実行されていた。
 
 
 ### (2) sysmonによる「win.exe」の実行の調査
