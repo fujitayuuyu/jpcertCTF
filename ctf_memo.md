@@ -481,7 +481,10 @@ cat Sysmon.csv | grep "ProcessId: 2144" -B 14 -A 2 | grep -e "TargetFilename:" -
 * メールソフトの起動、`Interview.doc.lnk`の作成後、少しして`maebashi.gunma`ユーザの`C:\\Windows\\Explorer.EXE`プロセスによってマルウェアのインストールコマンドが実行されている。
 * `maebashi.gunma`ユーザの`C:\\Windows\\Explorer.EXE`プロセスは、ローカルログインした場合、このプロセスによって動くため、ユーザによって報告された内容は信憑性が高い。
 
-# 5 事後調査
+# 5 追加調査
+## (0) biosnewsへのC2通信の期間
+![image](https://github.com/user-attachments/assets/3aa3645f-ce07-443e-81f4-1719c7d8af30)
+* 07/Nov/2019:19:12:01 ~ 07/Nov/2019:15:17:02
 ## (1) 情報流出の有無
 ### ① 方針
 * 情報が収集されその情報がまとめられていたのを確認している。
@@ -491,7 +494,6 @@ cat Sysmon.csv | grep "ProcessId: 2144" -B 14 -A 2 | grep -e "TargetFilename:" -
 #### ◇ 前回の情報の確認
 1[](/情報の奪取1.png)
 * 2019/11/7  16:58:37 Win7_64JP_01の情報の奪取
-
 ```
 cmd /c "C:\Intel\Logs\rar.exe a -r -ed 
 -v300m -taistoleit C:\Intel\Logs\d.rar 
