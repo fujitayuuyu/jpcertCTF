@@ -733,3 +733,6 @@ CommandLine: cmd /c ""C:\Intel\Logs\rar.exe a -r -ed -v300m -taistoleit C:\Intel
 ,2019/11/07 17:01:49,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
 CommandLine: cmd /c ""del C:\Intel\Logs\*""
 ```
+
+### (8) dwm.exeによる実行ファイルの自動実行設定
+![image](https://github.com/user-attachments/assets/54186be7-9fa6-46d1-82bd-441818df623c)
